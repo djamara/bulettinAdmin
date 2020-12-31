@@ -23,9 +23,9 @@ class Video extends Model
     // protected $hidden = [];
     // protected $dates = [];
 
-    /*protected $casts = [  Pour
-        'video_lien' => array()
-    ];*/
+    protected $casts = [
+        'video_lien' => 'string'
+    ];
 
     /*
     |--------------------------------------------------------------------------

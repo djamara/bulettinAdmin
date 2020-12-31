@@ -36,3 +36,7 @@
 <li class='nav-item'><a class='nav-link' href='{{ backpack_url('bilancovid') }}'>
         <i class='nav-icon la la-heart-broken'></i> Information COVID-19</a>
 </li>
+
+<li class='nav-item'><a class='nav-link' href='{{ backpack_url('informations') }}'>
+        <i class='nav-icon la la-info'></i> Informations</a>
+</li>

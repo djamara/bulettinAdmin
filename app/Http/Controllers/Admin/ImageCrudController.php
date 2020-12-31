@@ -103,6 +103,12 @@ class ImageCrudController extends CrudController
             'type' => 'textarea',
             'label'=>'Description de l\'image'
         ]);
+
+        CRUD::addField([
+            'name' => 'topActive',
+            'label'=>'Activer affichage',
+            'type' => 'checkbox'
+        ]);
     }
 
     /**

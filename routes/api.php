@@ -24,5 +24,6 @@ Route::apiResources([
     'actualite'=>'ActualiteController',
     'video'=>'VideoController',
     'bilancovid'=>'BilanCovidController',
-    'bilanactivite'=>'BilanActiviteController'
+    'bilanactivite'=>'BilanActiviteController',
+    'information'=>'informationController'
 ]);
