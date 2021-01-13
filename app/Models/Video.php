@@ -24,7 +24,7 @@ class Video extends Model
     // protected $dates = [];
 
     protected $casts = [
-        'video_lien' => 'string'
+        'video_lien' => 'array'
     ];
 
     /*

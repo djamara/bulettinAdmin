@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="29459e8d-4cf9-4a8b-b6e2-4296bf580d80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ImageCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ImageCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ImageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ImageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ActualiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ActualiteController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Video.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Video.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/backpack/custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/backpack/custom.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +179,10 @@
       <workItem from="1606400469755" duration="1586000" />
       <workItem from="1606469942499" duration="9881000" />
       <workItem from="1608648086068" duration="4661000" />
-      <workItem from="1609401892825" duration="932000" />
+      <workItem from="1609401892825" duration="5329000" />
+      <workItem from="1609750362574" duration="69000" />
+      <workItem from="1610140904586" duration="1568000" />
+      <workItem from="1610290007833" duration="6464000" />
     </task>
     <task id="LOCAL-00001" summary="20/11/2020">
       <created>1605889417171</created>
@@ -192,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605889417171</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="31/12/2020">
+      <created>1609402852379</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609402852379</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,25 +208,26 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="20/11/2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="20/11/2020" />
+    <MESSAGE value="31/12/2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="31/12/2020" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="261" y="0" key="CommitChangelistDialog2" timestamp="1605889368076">
+    <state x="261" y="0" key="CommitChangelistDialog2" timestamp="1609402846422">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="261" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1605889368076" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606400484826">
+    <state x="261" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1609402846422" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1609750428520">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606400484826" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609750428520" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1605035197889">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605035197889" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605889603899">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1609402864201">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605889603899" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1609402864201" />
     <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605889159175">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

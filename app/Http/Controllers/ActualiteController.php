@@ -16,7 +16,7 @@ class ActualiteController extends Controller
     public function index()
     {
         //
-        return Activite::all();
+        return Actualite::all();
     }
 
     /**
