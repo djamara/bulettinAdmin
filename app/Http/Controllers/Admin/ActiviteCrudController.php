@@ -134,6 +134,18 @@ class ActiviteCrudController extends CrudController
                 'type' => 'textarea',
                 'label'=>'Information sur l\'activité'
         ]);
+        CRUD::addField(['name' => 'impactHomme',
+                'type' => 'text',
+                'label'=>'impact sur les hommes'
+        ]);
+        CRUD::addField(['name' => 'impactFemme',
+                'type' => 'text',
+                'label'=>'impact sur les femmes'
+        ]);
+        CRUD::addField(['name' => 'impactEnfant',
+                'type' => 'text',
+                'label'=>'impact sur les enfants'
+        ]);
     }
 
     /**

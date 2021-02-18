@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Video;
+use App\Models\Informations;
 use Illuminate\Http\Request;
 
-class VideoController extends Controller
+class informationController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,7 +15,7 @@ class VideoController extends Controller
     public function index()
     {
         //
-        return Video::all() ;
+        return Informations::select('informations_description')->get();
     }
 
     /**
@@ -32,10 +32,10 @@ class VideoController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Video  $video
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Video $video)
+    public function show($id)
     {
         //
     }
@@ -44,10 +44,10 @@ class VideoController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Video  $video
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Video $video)
+    public function update(Request $request, $id)
     {
         //
     }
@@ -55,10 +55,10 @@ class VideoController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Video  $video
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Video $video)
+    public function destroy($id)
     {
         //
     }

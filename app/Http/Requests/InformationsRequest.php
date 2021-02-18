@@ -5,7 +5,7 @@ namespace App\Http\Requests;
 use App\Http\Requests\Request;
 use Illuminate\Foundation\Http\FormRequest;
 
-class ActiviteRequest extends FormRequest
+class InformationsRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -27,12 +27,6 @@ class ActiviteRequest extends FormRequest
     {
         return [
             // 'name' => 'required|min:5|max:255'
-            'date_activite'=>'required',
-            'activite_actualite'=>'required',
-            'projet_activte'=>'required',
-            'impactHomme'=>'numeric|required',
-            'impactFemme'=>'numeric|required',
-            'impactEnfant'=>'numeric|required'
         ];
     }
 
@@ -57,8 +51,6 @@ class ActiviteRequest extends FormRequest
     {
         return [
             //
-            'required'=>'Ces champs doivent être renseignés obligatoirement',
-            'numeric'=>'Ces champs doivent prendre des valeurs numériques'
         ];
     }
 }
