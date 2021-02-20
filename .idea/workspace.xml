@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29459e8d-4cf9-4a8b-b6e2-4296bf580d80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/InformationsCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/informationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/InformationsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Informations.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/videos/5ef21f254d0666dd16f1def01a5f590c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/videos/cc3125c8d761143220320fc55579a44c.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ActiviteCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ActiviteCrudController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/VideoCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/VideoCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/ActiviteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/ActiviteRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Video.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Video.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +186,7 @@
       <workItem from="1611312438282" duration="5933000" />
       <workItem from="1612437774163" duration="6035000" />
       <workItem from="1612768989280" duration="93000" />
-      <workItem from="1613579756765" duration="9082000" />
+      <workItem from="1613579756765" duration="13822000" />
     </task>
     <task id="LOCAL-00001" summary="20/11/2020">
       <created>1605889417171</created>
@@ -225,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610691973795</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="18/02/2021">
+      <created>1613667894451</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613667894451</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,17 +236,18 @@
     <MESSAGE value="31/12/2020" />
     <MESSAGE value="13/01/2021" />
     <MESSAGE value="15/01/2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="15/01/2021" />
+    <MESSAGE value="18/02/2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="18/02/2021" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613631451171">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613725170994">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1613631451171" />
-    <state x="261" y="0" key="CommitChangelistDialog2" timestamp="1610691972121">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1613725170994" />
+    <state x="261" y="0" key="CommitChangelistDialog2" timestamp="1613667883999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="261" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1610691972121" />
+    <state x="261" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1613667883999" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1613579881550">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -257,10 +256,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605035197889" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1613667756879">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1613667987800">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1613667756879" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1613667987800" />
     <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605889159175">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

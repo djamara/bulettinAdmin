@@ -66,7 +66,10 @@ class Video extends Model
 
         $destination_path = "public/uploads/videos";
 
+        $value = "uploads/videos/".$value;
+
         $this->uploadFileToDisk($value, $attribute_name, $disk, $destination_path);
+        //$this->uploadFileToDisk("KKB", "KKB", $disk, $destination_path);
 
         // return $this->attributes[{$attribute_name}]; // uncomment if this is a translatable field
     }
