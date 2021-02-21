@@ -22,12 +22,15 @@ class CreateActiviteTable extends Migration
     {
         Schema::create($this->tableName, function (Blueprint $table) {
             $table->engine = 'InnoDB';
-            $table->increments('idactivite');
-            $table->date('date_activite')->nullable();
-            $table->string('projet_activte')->nullable();
-            $table->string('activite_actualite')->nullable();
-            $table->dateTime('createed_at')->nullable();
-            $table->dateTime('updated_at')->nullable();
+            $table->bigIncrements('idactivite')->default('0');
+            $table->date('date_activite')->nullable()->default(null);
+            $table->bigInteger('projet_activte')->nullable()->default(null);
+            $table->string('activite_actualite')->nullable()->default(null);
+            $table->bigInteger('projet_idprojets')->nullable()->default(null);
+            $table->integer('impactHomme')->nullable()->default('0');
+            $table->integer('impactFemme')->nullable()->default('0');
+            $table->integer('impactEnfant')->nullable()->default('0');
+            $table->nullableTimestamps();
         });
     }
 

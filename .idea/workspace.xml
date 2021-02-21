@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29459e8d-4cf9-4a8b-b6e2-4296bf580d80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/values.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/01b24f2d5106dc138b1e936261a83081.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/035598911b4340c8b0946b56e4cf27e3.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/03b2c4073d73e9899142f7701146076f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/05b6fcbb4bae775b006f303fb54165bd.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/080637dc06b1622b27fff615d017daf8.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/08e5f29cf587b385347232c22fe604e3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/0d434352dac69cf9290e957e809a01e1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/194165e9bfe49decdddd269b3caeb60f.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/223d23b92354b512a794e819e6391e38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/47a5f69dc54e9f46ccb84c463fd4406a.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/52014f2eeabca1c9a96fd980ef6e7925.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/6217cf5f5601b91a350e0952f26a4065.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/940de54056abec91be28deacd18e73e7.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/991b7e079a33c920a054a5b18decc987.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/b1f0168e13b9104059ffa81becb7fff6.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/b476b255270c18e7eed92dd86259c0c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/ed8948de8981f1515a65a07a9dee0d8a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/ef04a6c7db4247b24d2f75de90ef23d7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/f6d67dc8596aca61d7d6944560bba9bb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/videos/fda985d28773172a4f2c03669a285214.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ActiviteCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ActiviteCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/ActiviteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/ActiviteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_09_000005_create_activite_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_09_000005_create_activite_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/backpack/custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/backpack/custom.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +210,7 @@
       <workItem from="1612437774163" duration="6035000" />
       <workItem from="1612768989280" duration="93000" />
       <workItem from="1613579756765" duration="13822000" />
-      <workItem from="1613799598316" duration="4758000" />
+      <workItem from="1613799598316" duration="10105000" />
     </task>
     <task id="LOCAL-00001" summary="20/11/2020">
       <created>1605889417171</created>
@@ -230,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613799641066</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="21/02/2021">
+      <created>1613910038147</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613910038147</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,17 +276,18 @@
     <MESSAGE value="15/01/2021" />
     <MESSAGE value="18/02/2021" />
     <MESSAGE value="20/02/2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="20/02/2021" />
+    <MESSAGE value="21/02/2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="21/02/2021" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613725170994">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1613725170994" />
-    <state x="261" y="0" key="CommitChangelistDialog2" timestamp="1613799634966">
+    <state x="261" y="0" key="CommitChangelistDialog2" timestamp="1613910035425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="261" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1613799634966" />
+    <state x="261" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1613910035425" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1613579881550">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -264,10 +296,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1613906950913" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1613799644285">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1613910041436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1613799644285" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1613910041436" />
     <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605889159175">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

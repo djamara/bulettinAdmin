@@ -40,3 +40,5 @@
 <li class='nav-item'><a class='nav-link' href='{{ backpack_url('informations') }}'>
         <i class='nav-icon la la-info'></i> Informations</a>
 </li>
+
+<li class='nav-item'><a class='nav-link' href='{{ backpack_url('detailactivite') }}'><i class='nav-icon la la-question'></i> DetailActivites</a></li>

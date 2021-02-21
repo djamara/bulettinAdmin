@@ -28,7 +28,15 @@ class ActiviteRequest extends FormRequest
         return [
             // 'name' => 'required|min:5|max:255'
             'date_activite'=>'required',
+            'date_fin_activite'=>'required',
             'activite_actualite'=>'required',
+            'Contenu_activite'=>'required',
+            'Defis_activite'=>'required',
+            'Besoins_activite'=>'required',
+            'Rumeur_activite'=>'required',
+            'Question_activte'=>'required',
+            'Plaintes_activite'=>'required',
+            'Resistance_activite'=>'required',
             'projet_activte'=>'required',
             'impactHomme'=>'numeric|required',
             'impactFemme'=>'numeric|required',

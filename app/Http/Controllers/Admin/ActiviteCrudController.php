@@ -97,7 +97,7 @@ class ActiviteCrudController extends CrudController
          * - CRUD::addField(['name' => 'price', 'type' => 'number']));
          */
 
-        CRUD::addField(['name' => 'date_activite',
+        /*CRUD::addField(['name' => 'date_activite',
             'type' => 'text',
             'label'=>'Date de l\'activité',
             'type'  => 'date_picker',
@@ -108,7 +108,23 @@ class ActiviteCrudController extends CrudController
                 'format'   => 'dd-mm-yyyy',
                 'language' => 'fr'
             ],
-        ]);
+        ]);*/
+        CRUD::addField(
+            [   // date_range
+                'name'  => ['date_activite', 'date_fin_activite'], // db columns for start_date & end_date
+                'label' => 'Periode de l\'activité',
+                'type'  => 'date_range',
+
+                // OPTIONALS
+                // default values for start_date & end_date
+                /*'default'            => ['2019-03-28 01:01', '2019-04-05 02:00'],*/
+                // options sent to daterangepicker.js
+                'date_range_options' => [
+                    'timePicker' => true,
+                    'locale' => ['format' => 'DD/MM/YYYY']
+                ]
+            ]
+        );
 
         CRUD::addField([
             'label'     => "Nom du projet",
@@ -146,6 +162,46 @@ class ActiviteCrudController extends CrudController
                 'type' => 'text',
                 'label'=>'impact sur les enfants'
         ]);
+
+        CRUD::addField(['name' => 'Contenu_activite',
+                'type' => 'textarea',
+                'label'=>'Contenu detaillé de l\'activité'
+        ]);
+
+        CRUD::addField(['name' => 'Succes_activite',
+                'type' => 'textarea',
+                'label'=>'Les succès de l\'activté'
+        ]);
+        CRUD::addField(['name' => 'Defis_activite',
+                'type' => 'textarea',
+                'label'=>'Les defis de l\'activté'
+        ]);
+        CRUD::addField(['name' => 'Besoins_activite',
+                'type' => 'textarea',
+                'label'=>'Les besoins non satisfaits de l\'activté'
+        ]);
+        CRUD::addField(['name' => 'Rumeur_activite',
+                'type' => 'textarea',
+                'label'=>'Les rumeurs collectées de l\'activté'
+        ]);
+
+        CRUD::addField(['name' => 'Question_activte',
+                'type' => 'textarea',
+                'label'=>'Les question des membres des communautés/volontaire pendant l\'activté'
+        ]);
+        CRUD::addField(['name' => 'Plaintes_activite',
+                'type' => 'textarea',
+                'label'=>'Les plaintes des membres des communautés pendant l\'activté'
+        ]);
+        CRUD::addField(['name' => 'Resistance_activite',
+                'type' => 'textarea',
+                'label'=>'Les résistances des communautés pendant l\'activté'
+        ]);
+        CRUD::addField(['name' => 'Prochaine_etape_activte',
+                'type' => 'textarea',
+                'label'=>'Les prochianes étapes'
+        ]);
+
     }
 
     /**
