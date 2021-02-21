@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29459e8d-4cf9-4a8b-b6e2-4296bf580d80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/values.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/VideoCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/VideoCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Video.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Video.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +144,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="M:/PROJETS/projet-angular/Restaurant" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -187,6 +186,7 @@
       <workItem from="1612437774163" duration="6035000" />
       <workItem from="1612768989280" duration="93000" />
       <workItem from="1613579756765" duration="13822000" />
+      <workItem from="1613799598316" duration="4758000" />
     </task>
     <task id="LOCAL-00001" summary="20/11/2020">
       <created>1605889417171</created>
@@ -223,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613667894451</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="20/02/2021">
+      <created>1613799641066</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613799641066</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,29 +244,30 @@
     <MESSAGE value="13/01/2021" />
     <MESSAGE value="15/01/2021" />
     <MESSAGE value="18/02/2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="18/02/2021" />
+    <MESSAGE value="20/02/2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="20/02/2021" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613725170994">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1613725170994" />
-    <state x="261" y="0" key="CommitChangelistDialog2" timestamp="1613667883999">
+    <state x="261" y="0" key="CommitChangelistDialog2" timestamp="1613799634966">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="261" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1613667883999" />
+    <state x="261" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1613799634966" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1613579881550">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1613579881550" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1605035197889">
+    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1613906950913">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605035197889" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1613667987800">
+    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1613906950913" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1613799644285">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1613667987800" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1613799644285" />
     <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605889159175">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
