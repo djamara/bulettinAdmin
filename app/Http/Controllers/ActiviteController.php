@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\activite;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class ActiviteController extends Controller
 {
@@ -16,6 +17,27 @@ class ActiviteController extends Controller
     {
         //
         return Activite::with('projet')->get();
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function ListActiviteByMonth()
+    {
+        //
+        $query = "SELECT projets.idprojets, projets.projet_libelle,
+                    SUM(activite.impactHomme) AS totalImpactHomme ,
+                    SUM(activite.impactFemme) AS totalImpactFemme ,
+                    SUM(activite.impactEnfant) AS totalImpactEnfant
+                    FROM activite, projets
+                    WHERE activite.projet_idprojets = projets.idprojets
+                    GROUP BY activite.projet_idprojets";
+
+        $result = DB::select($query);
+
+        return $result;
     }
 
     /**
@@ -61,5 +83,15 @@ class ActiviteController extends Controller
     public function destroy(activite $activite)
     {
         //
+    }
+
+    public function getMonthlyActiviteByProjet(Request $request){
+        $query = "SELECT * FROM activite , projets
+                  WHERE activite.projet_idprojets = projets.idprojets
+                  AND activite.projet_idprojets = ?
+                  AND MONTH(activite.date_activite)=MONTH(NOW())-1
+                  AND YEAR(activite.date_activite) = YEAR(NOW()) ";
+
+        return $result = DB::select($query , array($request->id));
     }
 }

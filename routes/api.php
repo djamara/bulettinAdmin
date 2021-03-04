@@ -27,3 +27,6 @@ Route::apiResources([
     'bilanactivite'=>'BilanActiviteController',
     'information'=>'informationController'
 ]);
+
+Route::get('/ActiviteByMonth','ActiviteController@ListActiviteByMonth');
+Route::get('/ActiviteByMonthByProjetID','ActiviteController@getMonthlyActiviteByProjet');
