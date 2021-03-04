@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29459e8d-4cf9-4a8b-b6e2-4296bf580d80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ActiviteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ActiviteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-    </list>
+    <list default="true" id="29459e8d-4cf9-4a8b-b6e2-4296bf580d80" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,7 +185,7 @@
       <workItem from="1613579756765" duration="13822000" />
       <workItem from="1613799598316" duration="11333000" />
       <workItem from="1614065703347" duration="1399000" />
-      <workItem from="1614807751456" duration="6826000" />
+      <workItem from="1614807751456" duration="6945000" />
     </task>
     <task id="LOCAL-00001" summary="20/11/2020">
       <created>1605889417171</created>
@@ -247,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613922954138</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="04/03/2021">
+      <created>1614871913453</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614871913453</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,17 +266,18 @@
     <MESSAGE value="18/02/2021" />
     <MESSAGE value="20/02/2021" />
     <MESSAGE value="21/02/2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="21/02/2021" />
+    <MESSAGE value="04/03/2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="04/03/2021" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613725170994">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1613725170994" />
-    <state x="261" y="0" key="CommitChangelistDialog2" timestamp="1613922946674">
+    <state x="261" y="0" key="CommitChangelistDialog2" timestamp="1614871909778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="261" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1613922946674" />
+    <state x="261" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1614871909778" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1614808371952">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -282,9 +286,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1613906950913" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1613922959513">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1614871931638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1613922959512" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1614871931638" />
   </component>
 </project>
