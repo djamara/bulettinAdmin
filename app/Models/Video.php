@@ -64,7 +64,7 @@ class Video extends Model
 
         $disk = config('backpack.base.root_disk_name');
 
-        $destination_path = "public/uploads/videos";
+        $destination_path = "/public/uploads/videos";
 
         $value = "uploads/videos/".$value;
 
@@ -110,7 +110,7 @@ class Video extends Model
             // from the root folder; that way, what gets saved in the db
             // is the public URL (everything that comes after the domain name)
             $public_destination_path = Str::replaceFirst('public/', '', $destination_path);
-            $this->attributes[$attribute_name] = $public_destination_path.'/'.$filename;
+            $this->attributes[$attribute_name] = $destination_path.'/'.$filename;
         }
     }
 }

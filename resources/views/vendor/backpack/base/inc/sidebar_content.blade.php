@@ -29,9 +29,9 @@
         <i class='nav-icon la la-project-diagram'></i> Projets</a>
 </li>
 
-<li class='nav-item'><a class='nav-link' href='{{ backpack_url('bilanactivite') }}'>
+{{--<li class='nav-item'><a class='nav-link' href='{{ backpack_url('bilanactivite') }}'>
         <i class='nav-icon la la-product-hunt'></i> Bilan des activites</a>
-</li>
+</li>--}}
 
 <li class='nav-item'><a class='nav-link' href='{{ backpack_url('bilancovid') }}'>
         <i class='nav-icon la la-heart-broken'></i> Information COVID-19</a>
@@ -41,4 +41,4 @@
         <i class='nav-icon la la-info'></i> Informations</a>
 </li>
 
-<li class='nav-item'><a class='nav-link' href='{{ backpack_url('detailactivite') }}'><i class='nav-icon la la-question'></i> DetailActivites</a></li>
+{{--<li class='nav-item'><a class='nav-link' href='{{ backpack_url('detailactivite') }}'><i class='nav-icon la la-question'></i> DetailActivites</a></li>--}}

@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29459e8d-4cf9-4a8b-b6e2-4296bf580d80" name="Default Changelist" comment="04/03/2021" />
+    <list default="true" id="29459e8d-4cf9-4a8b-b6e2-4296bf580d80" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ActualiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ActualiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Actualite.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Actualite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Image.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Video.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Video.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/01b24f2d5106dc138b1e936261a83081.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/035598911b4340c8b0946b56e4cf27e3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/03b2c4073d73e9899142f7701146076f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/05b6fcbb4bae775b006f303fb54165bd.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/080637dc06b1622b27fff615d017daf8.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/08e5f29cf587b385347232c22fe604e3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/0d434352dac69cf9290e957e809a01e1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/194165e9bfe49decdddd269b3caeb60f.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/223d23b92354b512a794e819e6391e38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/47a5f69dc54e9f46ccb84c463fd4406a.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/52014f2eeabca1c9a96fd980ef6e7925.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/6217cf5f5601b91a350e0952f26a4065.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/940de54056abec91be28deacd18e73e7.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/991b7e079a33c920a054a5b18decc987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/b1f0168e13b9104059ffa81becb7fff6.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/b476b255270c18e7eed92dd86259c0c4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/ed8948de8981f1515a65a07a9dee0d8a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/ef04a6c7db4247b24d2f75de90ef23d7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/f6d67dc8596aca61d7d6944560bba9bb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/videos/fda985d28773172a4f2c03669a285214.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/hello.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/hello.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +214,11 @@
       <workItem from="1613579756765" duration="13822000" />
       <workItem from="1613799598316" duration="11333000" />
       <workItem from="1614065703347" duration="1399000" />
-      <workItem from="1614807751456" duration="7265000" />
+      <workItem from="1614807751456" duration="7654000" />
+      <workItem from="1614888626064" duration="630000" />
+      <workItem from="1615188354973" duration="56000" />
+      <workItem from="1615188569248" duration="13659000" />
+      <workItem from="1615362537264" duration="1378000" />
     </task>
     <task id="LOCAL-00001" summary="20/11/2020">
       <created>1605889417171</created>
@@ -257,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614871987846</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="04/03/2021">
+      <created>1614872556877</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614872556877</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,14 +321,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1613725170994" />
-    <state x="261" y="0" key="CommitChangelistDialog2" timestamp="1614872018054">
+    <state x="261" y="0" key="CommitChangelistDialog2" timestamp="1614872555713">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="261" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1614872018054" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1614808371952">
+    <state x="261" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1614872555713" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1615362669985">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614808371952" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615362669985" />
     <state x="518" y="287" key="NewPhpFileDialog" timestamp="1613906950913">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
